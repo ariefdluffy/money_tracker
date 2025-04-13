@@ -1,16 +1,36 @@
-# money_tracker
+# 💰 Money Tracker - Aplikasi Pencatatan Keuangan
 
-A new Flutter project.
+Money Tracker adalah aplikasi pencatatan keuangan berbasis Flutter yang memungkinkan pengguna untuk mencatat pemasukan dan pengeluaran, menghitung saldo bulanan, serta menampilkan riwayat transaksi. Aplikasi ini juga mendukung login dengan akun Google dan Firebase sebagai backend.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 Login dan Sign Up (Email & Google Sign-In)
+- 🧾 Tambah Transaksi Pemasukan & Pengeluaran
+- 📆 Filter Transaksi Per Bulan
+- 📊 Total Saldo Otomatis Terupdate
+- 🗑️ Edit dan Hapus Transaksi (dengan konfirmasi modern)
+- 📱 Tampilan Responsive & Modern
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Teknologi yang Digunakan
+
+- [Flutter](https://flutter.dev)
+- [Firebase Authentication](https://firebase.google.com/products/auth)
+- [Cloud Firestore](https://firebase.google.com/products/firestore)
+- [GetX](https://pub.dev/packages/get)
+
+---
+
+## 🚀 Cara Menjalankan
+
+1. Clone repo ini:
+
+```bash
+git clone https://github.com/username/flutter-money-tracker.git
+cd flutter-money-tracker
+flutter pub get
+flutter run
+```
